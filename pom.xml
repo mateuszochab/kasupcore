@@ -11,7 +11,8 @@
 	<groupId>com.ochabmateusz.kasup</groupId>
 	<artifactId>coreapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>coreapp</name>
+    <packaging>pom</packaging>
+    <name>coreapp</name>
 	<description>Core MVC KasUp </description>
 	<url/>
 	<licenses>
@@ -20,7 +21,11 @@
 	<developers>
 		<developer/>
 	</developers>
-	<scm>
+    <modules>
+        <module>front</module>
+        <module>back</module>
+    </modules>
+    <scm>
 		<connection/>
 		<developerConnection/>
 		<tag/>
